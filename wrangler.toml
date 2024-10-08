@@ -1,0 +1,16 @@
+name = "dining"
+main = "src/index.ts"
+compatibility_date = "2024-10-01"
+workers_dev = false
+
+[observability]
+enabled = true
+
+[[d1_databases]]
+binding = "diningDB"
+database_name = "dining"
+database_id = "d8849612-88d1-47df-ab1a-3edb23f4d0a7"
+
+[[kv_namespaces]]
+binding = "i18n"
+id = "1db502c7210e4bd995a4039aacf668fe"
