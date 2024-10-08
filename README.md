@@ -11,4 +11,5 @@ To deploy on your worker, please create:
 - Secrets in the GitHub Action 
   - ```CLOUDFLARE_ACCOUNT_ID``` with your Account ID
   - ```CLOUDFLARE_API_TOKEN``` with your API Token
-- D1 database in Cloudflare
+- Cloudflare D1 Database
+- Cloudflare Worker KV
