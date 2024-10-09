@@ -36,7 +36,7 @@ app.use(async (c, next) =>
 
 app.notFound(async (c) =>
 	{
-		const payload = {host:c.req.header('host'),req_id:c.req.header('cf-ray')};
+		const payload = {host:c.req.header('host'),reqId:c.req.header('cf-ray')};
 		payload.status = getI18nString("status.error");
 		payload.message = getI18nString("message.notFound");
 		return c.json(payload, 404);
